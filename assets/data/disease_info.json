@@ -1,0 +1,30 @@
+{
+  "Healthy": {
+    "displayName": "Healthy Leaf",
+    "description": "The leaf shows no signs of disease. The plant appears to be in good condition.",
+    "symptoms": "Uniform green colour, no spots, no curling, no yellowing or wilting.",
+    "treatment": "No treatment needed. Continue normal care: regular watering, mulching and balanced fertiliser.",
+    "prevention": "Maintain good spacing for airflow, avoid waterlogging and inspect vines weekly for early signs of trouble."
+  },
+  "Leaf_blight": {
+    "displayName": "Leaf Blight (Phytophthora)",
+    "description": "Fungal-like infection caused by Phytophthora capsici, one of the most destructive black pepper diseases. It can spread very fast in humid, rainy weather and may also attack the stem base (quick wilt).",
+    "symptoms": "Dark water-soaked spots on leaves that enlarge quickly, yellow halo around lesions, blackening of branches, and rapid defoliation in humid weather.",
+    "treatment": "Remove and destroy infected leaves and branches; spray Bordeaux mixture 1% or copper oxychloride 0.2%; drench the basin with copper fungicide and apply Trichoderma around the base.",
+    "prevention": "Ensure good drainage, avoid overhead watering and overcrowding, mulch with clean material, and use disease-free planting material. Inspect vines weekly during the monsoon."
+  },
+  "Slow_decline": {
+    "displayName": "Slow Decline (Nematode)",
+    "description": "Gradual decline caused mainly by root-knot nematodes (Meloidogyne incognita) damaging the roots, often together with poor soil nutrition.",
+    "symptoms": "Yellowing leaves, stunted growth, small galls or knots on roots, reduced spike formation and gradual weakening of the vine over months.",
+    "treatment": "Apply neem cake 2 kg/vine; drench the soil with Paecilomyces lilacinus or compatible biocontrol agents; ensure balanced nutrition with organic manures.",
+    "prevention": "Use nematode-free planting material, practise crop rotation with non-host plants, add organic amendments, and avoid introducing infested soil on tools or seedlings."
+  },
+  "Yellow_mottle_virus": {
+    "displayName": "Yellow Mottle Virus",
+    "description": "Viral disease of black pepper associated with Piper yellow mottle virus (PYMoV). It is spread by mealybugs and scale insects and through infected planting material. There is no chemical cure for the virus itself, so management focuses on vectors and clean planting stock.",
+    "symptoms": "Yellow mottling or mosaic patches on leaves along the veins, chlorotic speckles, leaf distortion and reduced internode growth; vines look generally weak and yield poorly.",
+    "treatment": "No cure once infected: remove and destroy severely affected vines to reduce spread. Control mealybugs and scales on remaining vines with appropriate insecticide or biocontrol, and keep the plantation weed-free.",
+    "prevention": "Plant only virus-free, certified cuttings; control ant and mealybug populations; inspect new planting material; avoid mechanical transfer of sap between vines with shared tools."
+  }
+}

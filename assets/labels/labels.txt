@@ -1,0 +1,4 @@
+Healthy
+Leaf_blight
+Slow_decline
+Yellow_mottle_virus

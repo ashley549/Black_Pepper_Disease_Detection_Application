@@ -1,0 +1,45 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+!.env.example.*
+*.pem
+*.p12
+*.keystore
+*.jks
+key.properties
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.iml
+*.ipr
+*.iws
+.atom/
+.buildlog/
+.history/
+.idea/
+.vscode/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/build/
+migrate_working_dir/
+
+# Android/Gradle
+**/.gradle/
+**/.kotlin/
+**/captures/
+**/.cxx/
+**/local.properties
+**/GeneratedPluginRegistrant.java
+app.*.symbols
+app.*.map.json

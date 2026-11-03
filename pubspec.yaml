@@ -1,0 +1,56 @@
+name: pepper_disease_app
+description: On-device black pepper leaf disease identification with AI-powered treatment advice.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management (PRD 3)
+  flutter_riverpod: ^2.6.1
+  # Navigation
+  go_router: ^14.6.2
+  # Image capture + processing
+  image_picker: ^1.1.2
+  image: ^4.5.2
+  # Free-form crop editor so users can focus on the leaf (added per feedback)
+  crop_your_image: ^2.0.1
+  # Permissions
+  permission_handler: ^11.3.1
+  # Local storage
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.4
+  # Gemini AI advice (REST via http - the google_generative_ai SDK is deprecated)
+  http: ^1.2.2
+  # On-device inference for the real MobileNetV1 model (Phase 9).
+  tflite_flutter: ^0.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mocktail: ^1.0.4
+  flutter_launcher_icons: ^0.14.4
+
+# Generates launcher icons from assets/icon/icon.png (run:
+# dart run flutter_launcher_icons)
+flutter_launcher_icons:
+  image_path: "assets/icon/icon.png"
+  android: "launcher_icon"
+  adaptive_icon_background: "#0F3D1B"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+  ios: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/disease_info.json
+    - assets/labels/
+    - assets/models/
